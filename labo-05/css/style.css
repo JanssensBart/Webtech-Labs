@@ -1,0 +1,18 @@
+html, body {
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #41190f;
+  height: 100%;
+  width: 100%;
+}
+a, a:hover {
+  text-decoration: none;
+  color: #ca8446;
+}
+
+.koffiebruin{
+  color: #ca8446;
+}

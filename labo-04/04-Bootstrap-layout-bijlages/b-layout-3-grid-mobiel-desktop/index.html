@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>oefening</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- JavaScript: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
+    defer></script>
+  <!-- eigen geschreven css voor jouw html-bestand -->
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <header></header>
+  <nav></nav>
+  <main class="container">
+  <h1 class="text-center">Responsief mét eigen css</h1>
+  <h2 class="mt-4 mb-4 text-center">mobiel & desktop</h2>
+    <p>Het Bootstrap v5-rastersysteem heeft zes klassenklassen: xs (extra klein maar de klasse "xs" wordt niet zo benoemd), sm (klein), md (gemiddeld), lg (groot), xl (x-groot) en xxl (xx -groot). Bijna elke combinatie van deze klassen kunnen gebruikt worden om meer dynamische en flexibele lay-outs te maken.</p>
+    <p>Elk niveau van klassen wordt opgeschaald, wat betekent dat als u van plan bent dezelfde breedtes in te stellen voor md, lg, xl en xxl, u alleen md hoeft op te geven.</p>
+    <p>In deze voorbeelden wordt de klasse .themed-grid-col aan de kolommen toegevoegd om zo wat eigen css toe te voegen. Dit is geen klasse die standaard beschikbaar is in Bootstrap, maar die je zelf kan toevoegen aan ./css/style.css.</p>
+      <hr class="my-4">
+
+      <section class="row mb-3 text-center">
+        <article class="col-md-8 themed-grid-col">
+          .col-md-8 
+          <img src="./images/coffeeshop.jpg" alt="koffiebonen" width="100%">
+        </article>
+        <article class="col-6 col-md-4  themed-grid-col">
+          .col-6 .col-md-4 
+          <img src="./images/coffeeshop.jpg" alt="koffiebonen" width="100%"></article>
+      </section>
+
+      <section class="row mb-3 text-center">
+        <article class="col-6 col-md-4 themed-grid-col">
+          .col-6 .col-md-4
+        </article>
+        <article class="col-6 col-md-4 themed-grid-col">
+          .col-6 .col-md-4
+        </article>
+        <article class="col-6 col-md-4 themed-grid-col">
+          .col-6 .col-md-4
+        </article>
+      </section>
+
+      <section class="row mb-2 text-center">
+        <article class="col-6 themed-grid-col">.col-6 </article>
+        <article class="col-6 themed-grid-col">.col-6 </article>
+      </section>
+  
+      <hr class="my-4">
+  
+      <h2 class="mt-4 mb-4 text-center">mobiel, tablet & desktop</h2>
+
+      <section class="row mb-3 text-center">
+        <article class="col-sm-6 col-lg-8 themed-grid-col">.col-sm-6 .col-lg-8</article>
+        <article class="col-6 col-lg-4 themed-grid-col">.col-6 .col-lg-4</article>
+      </section>
+      <section class="row mb-3 text-center">
+        <article class="col-6 col-sm-4 themed-grid-col">.col-6 .col-sm-4</article>
+        <article class="col-6 col-sm-4 themed-grid-col">
+          .col-6 .col-sm-4 
+          <img src="./images/coffee.png" alt="koffie" width="144px"></article>
+        <article class="col-6 col-sm-4 themed-grid-col">.col-6 .col-sm-4</article>
+      </section>
+      <section class="themed-container">.container-fluid 100%</section>
+
+  </main>
+  <aside></aside>
+  <footer></footer>
+</body>
+
+</html>

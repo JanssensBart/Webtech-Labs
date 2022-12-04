@@ -1,0 +1,6 @@
+.themed-container {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: rgba(179, 255, 0, 0.2);
+    border: 1px solid rgba(179, 255, 0, 1);
+  }

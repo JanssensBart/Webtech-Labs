@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shop</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <!-- Bootstrap CSS icons: https://icons.getbootstrap.com/#usage -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- JavaScript: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- eigen geschreven css voor jouw html-bestand -->
+  <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body class="p-3 m-0 border-0 bd-example">
+  <nav class="navbar navbar-expand-md bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./images/coffee.png" alt="Koffie & co" width="100" height="100">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">shop</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">subpagina 1</a></li>
+              <li><a class="dropdown-item" href="#">subpagina 2</a></li>
+              <li><a class="dropdown-item" href="#">subpagina 3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="zoeken" aria-label="Search">
+          <button class="btn btn-sm btn-outline-secondary" type="submit">zoeken</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <header class="row m-5">
+    <h1 class="col display-2 koffiebruin text-center">may the coffee<br>be with you</h1>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <main class="col-md-9 pe-3">
+        <section id="shopintro" class="row">
+          <article class="col-12 mb-3">
+            <h2 class="text-uppercase fs-4 fw-bolder pt-3">shop</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quidem consequatur officiis labore
+              ex, expedita omnis architecto dolore ratione aliquid. Expedita libero est tempore esse distinctio?
+              Autem voluptas exercitationem eius quas harum magni obcaecati nemo cum voluptatum voluptatem maiores
+              quibusdam voluptates laudantium perspiciatis minima labore quod, id itaque iure nostrum.</p>
+          </article>
+          <hr>
+
+          <article class="shop-item col-12 col-sm-6 col-md-4">
+            <h2 class="text-uppercase fs-6 fw-bolder pt-3">Illy</h2>
+            <p class="h6 small">donkere branding</p>
+            <a href="#" rel="noopener">
+              <figure>
+                <img src="./images/pexels-1-pixabay.jpg" class="img-fluid" alt="foto van Illy koffiebonen"
+                  title="Illy koffiebonen">
+                <figcaption class="h6 small mt-2">&copy; Pixabay</figcaption>
+              </figure>
+            </a>
+          </article>
+          <article class="shop-item col-12 col-sm-6 col-md-4">
+            <h2 class="text-uppercase fs-6 fw-bolder pt-3">Lavazza</h2>
+            <p class="h6 small">aromatische koffiebonen</p>
+            <a href="#" rel="noopener">
+              <figure><img src="./images/pexels-2-igor-haritanovich.jpg" class="img-fluid"
+                  alt="foto van Lavazza koffiebonen" title="Lavazza koffiebonen">
+                <figcaption class="h6 small mt-2">&copy; Igor Haritanovich</figcaption>
+              </figure>
+            </a>
+          </article>
+          <article class="shop-item col-12 col-sm-6 col-md-4">
+            <h2 class="text-uppercase fs-6 fw-bolder pt-3">Starbucks</h2>
+            <p class="h6 small">dé koffiemelange</p>
+            <a href="#" rel="noopener">
+              <figure><img src="./images/pexels-3-adam-lukac.jpg" class="img-fluid" alt="foto van Starbucks koffiebonen"
+                  title="Starbucks koffiebonen">
+                <figcaption class="h6 small mt-2">&copy; Adam Lukac</figcaption>
+              </figure>
+            </a>
+          </article>
+          <article class="shop-item col-12 col-sm-6 col-md-4">
+            <h2 class="text-uppercase fs-6 fw-bolder pt-3">koffiemolen 1</h2>
+            <p class="h6 small">grotere capaciteit</p>
+            <a href="#" rel="noopener">
+              <figure><img src="./images/pexels-4-juan-pablo-serrano-arenas.jpg" class="img-fluid"
+                  alt="foto van koffiemolen 1" title="koffiemolen 1">
+                <figcaption class="h6 small mt-2">&copy; Julius Shulman</figcaption>
+              </figure>
+            </a>
+          </article>
+          <article class="shop-item col-12 col-sm-6 col-md-4">
+            <h2 class="text-uppercase fs-6 fw-bolder pt-3">koffiemolen 2</h2>
+            <p class="h6 small">maal ze snel fijn</p>
+            <a href="#" rel="noopener">
+              <figure><img src="./images/pexels-5-wouter-de-jong.jpg" class="img-fluid" alt="foto van koffiemolen 2"
+                  title="koffiemolen 2">
+                <figcaption class="h6 small mt-2">&copy; Juan Arenas</figcaption>
+              </figure>
+            </a>
+          </article>
+          <article class="shop-item col-12 col-sm-6 col-md-4">
+            <h2 class="text-uppercase fs-6 fw-bolder pt-3">koffiemolen 3</h2>
+            <p class="h6 small">the old fashion way</p>
+            <a href="#" rel="noopener">
+              <figure><img src="./images/pexels-6-tom-swinnen.jpg" class="img-fluid" alt="foto van koffiemolen 3"
+                  title="koffiemolen 3">
+                <figcaption class="h6 small mt-2">&copy; Tom Swinnen</figcaption>
+              </figure>
+            </a>
+          </article>
+        </section>
+        <hr>
+      </main>
+
+      <aside class="col-md-3 border-start ps-5"">
+      <h2 class=" text-uppercase fs-4 fw-bolder pt-3">contact</h2>
+        <p>COFFEE shop<br>
+          email <a href="mailto:mail@ap-coffeeshop.be">mail@ap-coffeeshop.be</a><br>
+          phone +32 123 / 45 67 89</p>
+        <ul class="list-inline socials">
+          <li class="list-inline-item">
+            <a href="https://www.youtube.com" target="_blank">
+              <i class="bi bi-youtube koffiebruin fs-3"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com" target="_blank">
+              <i class="bi bi-instagram koffiebruin fs-3"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com" target="_blank">
+              <i class="bi bi-facebook koffiebruin fs-3"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/" target="_blank">
+              <i class="bi bi-twitter koffiebruin fs-3"></i>
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+    </div>
+  </div>
+
+  <footer class="container-fluid text-center h6 small p-4">&copy; 2023 koffie enzo</footer>
+</body>
+
+</html>
